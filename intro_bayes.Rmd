@@ -1,0 +1,66 @@
+---
+title: "Introduction to Bayesian Data Analysis"
+author: "Mick Cooney"
+date: "1 Nov 2016"
+output:
+  html_document:
+    toc: true
+    number_sections: true
+    fig_caption: yes
+    theme: cerulean
+    css: styles.css
+  pdf_document: default
+---
+
+<!--
+(Title:) Introduction to Bayesian Data Analysis
+
+Author: Mick Cooney
+
+Date: 2016
+
+Abstract: This is a simple intro workbook to help me introduce the
+basic concepts of Bayesian Data Analysis to people.
+
+Keywords: bayesian-data-analysis
+
+-->
+
+```{r knit_opts, include = FALSE}
+rm(list = ls())
+
+knitr::opts_chunk$set(tidy       = FALSE
+                     ,cache      = FALSE
+                     ,fig.height =  8
+                     ,fig.width  = 11
+                     )
+
+library(tidyverse)
+library(data.table)
+library(dtplyr)
+
+library(GGally)
+library(feather)
+
+
+options(width            = 90L)
+
+options(datatable.print.nrows      = 10L)
+options(datatable.prettyprint.char = 80L)
+
+set.seed(42)
+
+source("custom_functions.R")
+```
+
+# Load Data
+
+
+```{r load_data, echo=TRUE}
+```
+
+
+#
+
+
+##
